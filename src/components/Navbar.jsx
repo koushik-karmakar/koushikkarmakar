@@ -8,6 +8,7 @@ const Navbar = ({ activeSection }) => {
     { id: "skills", label: "Skills" },
     { id: "education", label: "Resume" },
     { id: "portfolio", label: "Projects" },
+    { id: "contact", label: "Contact" },
   ];
 
   const scrollToSection = (id) => {
