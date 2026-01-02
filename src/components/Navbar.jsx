@@ -1,4 +1,3 @@
-// src/components/Navbar.jsx
 import { SiGithub } from "react-icons/si";
 
 const Navbar = ({ activeSection }) => {
@@ -25,7 +24,13 @@ const Navbar = ({ activeSection }) => {
     <nav className="fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-purple-600 rounded-full"></div>
+          <div className="w-8 h-8 rounded-full overflow-hidden">
+            <img
+              src="https://res.cloudinary.com/db7qmdfr2/image/upload/v1767370828/koushik-karmakar-logo_o4phzl.png"
+              alt="koushik-karmakar"
+              className="w-full h-full object-cover"
+            />
+          </div>
           <span className="text-xl font-bold">Koushik Karmakar</span>
           <span className="text-gray-400 text-sm hidden md:inline">
             | Full Stack Developer
@@ -58,8 +63,6 @@ const Navbar = ({ activeSection }) => {
             <SiGithub className="w-5 h-5" />
             <span className="text-sm">GitHub</span>
           </a>
-
-          
         </div>
       </div>
     </nav>

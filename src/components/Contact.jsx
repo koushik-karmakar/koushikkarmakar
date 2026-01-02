@@ -1,5 +1,5 @@
 // components/Contact.js
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   FiMail,
   FiPhone,
@@ -27,7 +27,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
     console.log("Form submitted:", formData);
     alert("Message sent successfully!");
     setFormData({ name: "", email: "", subject: "", message: "" });
@@ -46,7 +45,6 @@ const Contact = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Contact Info */}
           <div>
             <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
             <div className="space-y-6">
@@ -108,11 +106,17 @@ const Contact = () => {
                 >
                   <FiFacebook className="w-6 h-6" />
                 </a>
+                <a
+                  href="https://x.com/koushikke"
+                  target="_blank"
+                  className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors"
+                >
+                  <FiTwitter className="w-6 h-6" />
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Contact Form */}
           <div>
             <h3 className="text-2xl font-bold mb-6">Send Me a Message</h3>
             <form onSubmit={handleSubmit}>

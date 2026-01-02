@@ -1,6 +1,4 @@
-// components/Hero.js
-import React from "react";
-
+import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <section
@@ -17,8 +15,27 @@ const Hero = () => {
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 Koushik <span className="text-purple-400">Karmakar</span>
               </h1>
-              <h2 className="text-2xl md:text-3xl  text-gray-300 mb-6">
-                Full Stack Developer
+              <h2 className="text-2xl md:text-3xl text-gray-300 mb-6">
+                <TypeAnimation
+                  sequence={[
+                    "Full Stack Developer",
+                    2000,
+                    "Web Developer",
+                    2000,
+                    "Freelancer",
+                    2000,
+                    "Programmer",
+                    2000,
+                    "Software Developer",
+                    2000,
+                  ]}
+                  wrapper="span"
+                  cursor={true}
+                  repeat={Infinity}
+                  speed={10}
+                  deletionSpeed={10}
+                  style={{ display: "inline-block" }}
+                />
               </h2>
               <p className="text-gray-400 mb-8 max-w-xl">
                 We appreciate your trust greatly our clients choose us & our
@@ -37,16 +54,15 @@ const Hero = () => {
               >
                 View Work
               </button>
-              <button
-                onClick={() =>
-                  document
-                    .getElementById("contact")
-                    .scrollIntoView({ behavior: "smooth" })
-                }
-                className="cursor-pointer px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-lg font-semibold transition-colors"
+              <a
+                href="../../public/Koushik-karmakar's CV.pdf"
+                download="Koushik_Karmakar_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-lg font-semibold transition-colors inline-block"
               >
-                Contact Me
-              </button>
+                Download CV
+              </a>
             </div>
 
             <div className="mt-8 sm:mt-12 p-6 bg-gray-800/50 rounded-xl">
@@ -73,16 +89,25 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-linear-to-br from-purple-600/20 to-pink-600/20 flex items-center justify-center">
                 <div className="w-56 h-56 md:w-72 md:h-72 rounded-full bg-linear-to-br from-purple-600/30 to-pink-600/30 flex items-center justify-center">
-                  <div className="w-48 h-48 md:w-60 md:h-60 rounded-full bg-linear-to-br from-purple-600 to-pink-600 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="text-4xl md:text-5xl font-bold">KK</div>
-                      <div className="text-sm mt-2">Full Stack Developer</div>
+                  <div className="w-48 h-48 md:w-60 md:h-60 rounded-full bg-linear-to-br from-purple-600 to-pink-600 flex items-center justify-center overflow-hidden">
+                    <div className="w-full h-full flex items-center justify-center relative">
+                      <img
+                        src="https://res.cloudinary.com/db7qmdfr2/image/upload/v1767371457/kk_1_ifqt0r.jpg"
+                        alt="Koushik Karmakar"
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-black/10"></div>
+                      <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
+                        {/* <div className="text-3xl md:text-4xl font-bold mt-50">KK</div> */}
+                        {/* <div className="text-xs md:text-sm mt-1 md:mt-2 font-medium ">
+                          Full Stack Developer
+                        </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Decorative elements */}
               <div className="absolute -top-4 -right-4 w-16 h-16 rounded-full bg-yellow-500/10 border border-yellow-500/20"></div>
               <div className="absolute -bottom-6 -left-6 w-20 h-20 rounded-full bg-blue-500/10 border border-blue-500/20"></div>
             </div>

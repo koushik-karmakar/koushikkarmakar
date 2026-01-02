@@ -1,8 +1,35 @@
-// components/Portfolio.js
-import React from "react";
-
 const Portfolios = () => {
   const projects = [
+    {
+      title: "Real-time Chat App",
+      category: "REAL-TIME",
+      description:
+        "Instant messaging application with real-time messaging, file sharing, group chats, and video calling capabilities.",
+      color: "from-teal-600/20 to-blue-600/20",
+      technologies: ["React.js", "Node.js", "Socket.io", "MongoDB"],
+      liveLink: "https://chat-app-demo.com",
+      githubLink: "https://github.com/yourusername/chat-application",
+    },
+    {
+      title: "Portfolio Website",
+      category: "FRONTEND",
+      description:
+        "Responsive portfolio website built with React and Tailwind CSS, featuring dark/light mode, smooth animations, and optimized performance.",
+      color: "from-green-600/20 to-emerald-600/20",
+      technologies: ["React.js", "Tailwind CSS", "React Router"],
+      liveLink: "https://yourportfolio.com",
+      githubLink: "https://github.com/yourusername/portfolio-website",
+    },
+    {
+      title: "Weather Dashboard",
+      category: "WEB APPLICATION",
+      description:
+        "Real-time weather application with location-based forecasts, interactive maps, and historical data visualization.",
+      color: "from-orange-600/20 to-red-600/20",
+      technologies: ["React.js", "Weather API", "Chart.js", "Geolocation API"],
+      liveLink: "https://weather-dashboard-demo.com",
+      githubLink: "https://github.com/yourusername/weather-dashboard",
+    },
     {
       title: "E-Commerce Platform",
       category: "FULL-STACK",
@@ -35,26 +62,7 @@ const Portfolios = () => {
       liveLink: "https://taskmanager-demo.com",
       githubLink: "https://github.com/yourusername/task-management-app",
     },
-    {
-      title: "Portfolio Website",
-      category: "FRONTEND",
-      description:
-        "Responsive portfolio website built with React and Tailwind CSS, featuring dark/light mode, smooth animations, and optimized performance.",
-      color: "from-green-600/20 to-emerald-600/20",
-      technologies: ["React.js", "Tailwind CSS", "React Router"],
-      liveLink: "https://yourportfolio.com",
-      githubLink: "https://github.com/yourusername/portfolio-website",
-    },
-    {
-      title: "Weather Dashboard",
-      category: "WEB APPLICATION",
-      description:
-        "Real-time weather application with location-based forecasts, interactive maps, and historical data visualization.",
-      color: "from-orange-600/20 to-red-600/20",
-      technologies: ["React.js", "Weather API", "Chart.js", "Geolocation API"],
-      liveLink: "https://weather-dashboard-demo.com",
-      githubLink: "https://github.com/yourusername/weather-dashboard",
-    },
+
     {
       title: "Blog Platform",
       category: "FULL-STACK",
@@ -64,17 +72,6 @@ const Portfolios = () => {
       technologies: ["Next.js", "Node.js", "MongoDB", "Mongoose", "Cloudinary"],
       liveLink: "https://blog-platform-demo.com",
       githubLink: "https://github.com/yourusername/blog-platform",
-    },
-
-    {
-      title: "Real-time Chat App",
-      category: "REAL-TIME",
-      description:
-        "Instant messaging application with real-time messaging, file sharing, group chats, and video calling capabilities.",
-      color: "from-teal-600/20 to-blue-600/20",
-      technologies: ["React.js", "Node.js", "Socket.io", "MongoDB"],
-      liveLink: "https://chat-app-demo.com",
-      githubLink: "https://github.com/yourusername/chat-application",
     },
   ];
 

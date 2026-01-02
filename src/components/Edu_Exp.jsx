@@ -1,10 +1,7 @@
-// components/EducationExperience.js
-import React from "react";
-
 const EducationExperience = () => {
   const education = [
     {
-      title: "Self-Taught Diploma in Computer Technologies",
+      title: "Self-Taught Computer Technologies",
       institution: "Self-Learning (YouTube & Online Resources)",
       period: "2024 – 2025",
       description:
@@ -37,19 +34,18 @@ const EducationExperience = () => {
     {
       title: "Web Application Developer",
       company: "Confidential Client Projects",
-      period: "2019 – 2020",
+      period: "2025 – Present",
       description:
         "Worked on multiple client-based web projects under confidentiality, including School management Software and business websites, focusing on backend development, database integration, and application reliability.",
     },
     {
       title: "JavaScript Developer",
-      company: "Personal Projects & Independent Work",
-      period: "2018 – 2019",
+      company: "Personal Projects",
+      period: "2025 – Present",
       description:
         "Developed JavaScript-driven web applications through personal projects, including an eCommerce platform, learning modern frontend practices, state management, and reusable component design.",
     },
   ];
-
   return (
     <section id="education" className="py-16 px-4 bg-gray-900">
       <div className="container mx-auto max-w-6xl">
@@ -59,9 +55,7 @@ const EducationExperience = () => {
           </h2>
           <div className="w-24 h-1 bg-purple-500 mx-auto"></div>
         </div>
-
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Education */}
           <div>
             <h3 className="text-2xl font-bold mb-8 text-center">Education</h3>
             <div className="space-y-8">
@@ -86,8 +80,6 @@ const EducationExperience = () => {
               ))}
             </div>
           </div>
-
-          {/* Experience */}
           <div>
             <h3 className="text-2xl font-bold mb-8 text-center">Experience</h3>
             <div className="space-y-8">

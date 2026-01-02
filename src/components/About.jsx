@@ -1,6 +1,3 @@
-// components/About.js
-import React from "react";
-
 const About = () => {
   return (
     <section id="about" className="py-16 px-4 bg-gray-900">
@@ -14,7 +11,7 @@ const About = () => {
           <div className="lg:w-2/3">
             <p className="text-gray-300 mb-6">
               Hi, my name is{" "}
-              <span className="text-purple-400 font-semibold">
+              <span className="text-purple-400 italic font-semibold">
                 Koushik Karmakar
               </span>{" "}
               and I'm a Software Developer who loves transforming ideas into
@@ -25,27 +22,27 @@ const About = () => {
             <p className="text-gray-300 mb-6">
               I'm proficient in{" "}
               <span className="text-yellow-400 italic">JavaScript</span>,{" "}
-              <span className="text-blue-400">React</span>,{" "}
-              <span className="text-green-400">Node.js</span> and{" "}
-              <span className="text-orange-400">PHP</span> – and I enjoy working
+              <span className="text-blue-400 italic ">React</span>,{" "}
+              <span className="text-green-400 italic">Node.js</span> and{" "}
+              <span className="text-orange-400 italic">PHP</span> – and I enjoy working
               across both backend and frontend stacks. I also have solid
               experience with databases such as{" "}
-              <span className="text-orange-400">MySQL</span> and{" "}
-              <span className="text-green-400">MongoDB</span>, and I regularly
-              use <span className="text-cyan-400">Mongoose</span> for efficient
+              <span className="text-orange-400 italic">MySQL</span> and{" "}
+              <span className="text-green-400 italic">MongoDB</span>, and I regularly
+              use <span className="text-cyan-400 italic">Mongoose</span> for efficient
               data modeling and database interactions in Node.js applications.
             </p>
             <p className="text-gray-300 mb-6">
               My key areas of interest include developing{" "}
-              <span className="text-purple-400">Web Applications</span>,{" "}
-              <span className="text-purple-400">Software Development</span>, and
+              <span className="text-purple-400 italic">Web Applications</span>,{" "}
+              <span className="text-purple-400 italic">Software Development</span>, and
               exploring new ways to bridge on-chain and off-chain systems.
             </p>
             <p className="text-gray-300">
               Whenever possible, I love building projects with{" "}
-              <span className="text-green-400">Node.js</span> and modern
-              frameworks like <span className="text-cyan-400">React.js</span>,{" "}
-              <span className="text-cyan-400">Express.js</span>.
+              <span className="text-green-400 italic">Node.js</span> and modern
+              frameworks like <span className="text-cyan-400 italic">React.js</span>,{" "}
+              <span className="text-cyan-400 italic">Express.js</span>.
             </p>
           </div>
 
@@ -56,30 +53,30 @@ const About = () => {
               </h3>
               <div className="space-y-4">
                 <div className="flex">
-                  <span className="w-32 text-gray-400">Name:</span>
+                  <span className="w-32 text-gray-400 italic">Name:</span>
                   <span className="font-medium">Koushik Karmakar</span>
                 </div>
                 <div className="flex">
-                  <span className="w-32 text-gray-400">Nationality:</span>
+                  <span className="w-32 text-gray-400 italic">Nationality:</span>
                   <span className="font-medium">Indian</span>
                 </div>
                 <div className="flex">
-                  <span className="w-32 text-gray-400">Phone:</span>
+                  <span className="w-32 text-gray-400 italic">Phone:</span>
                   <span className="font-medium">+91 93390-90783</span>
                 </div>
                 <div className="flex">
-                  <span className="w-32 text-gray-400">Email:</span>
-                  <span className="font-medium text-purple-400">
+                  <span className="w-32 text-gray-400 italic">Email:</span>
+                  <span className="font-medium text-purple-400 italic">
                     koushik9339mail@gmail.com
                   </span>
                 </div>
 
                 <div className="flex">
-                  <span className="w-32 text-gray-400">Freelance:</span>
-                  <span className="font-medium text-green-400">Available</span>
+                  <span className="w-32 text-gray-400 italic">Freelance:</span>
+                  <span className="font-medium text-green-400 italic">Available</span>
                 </div>
                 <div className="flex">
-                  <span className="w-32 text-gray-400">Language:</span>
+                  <span className="w-32 text-gray-400 italic">Language:</span>
                   <span className="font-medium">Bengali, Hindi, English</span>
                 </div>
               </div>
