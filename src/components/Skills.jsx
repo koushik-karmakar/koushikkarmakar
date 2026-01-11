@@ -1,6 +1,4 @@
-// components/Skills.jsx
 import React from "react";
-// Use only verified available icons from react-icons/si
 import {
   SiJavascript,
   SiReact,
@@ -22,11 +20,10 @@ import {
   SiGooglechrome,
 } from "react-icons/si";
 
-// Import from other icon sets for icons not available in 'si'
 import {
   FaNodeJs,
   FaTerminal,
-  FaMicrosoft, // For VS Code alternative
+  FaMicrosoft, 
 } from "react-icons/fa";
 import { DiVisualstudio } from "react-icons/di";
 
@@ -171,7 +168,6 @@ const Skills = () => {
           </p>
         </div>
 
-        {/* Skills Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {skillCategories.map((category, catIndex) => (
             <div key={catIndex} className="bg-gray-900 rounded-xl p-6">
@@ -195,7 +191,6 @@ const Skills = () => {
           ))}
         </div>
 
-        {/* Tools Section */}
         <div className="bg-gray-900 rounded-2xl p-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold mb-4">Tools I Use</h2>
@@ -218,7 +213,6 @@ const Skills = () => {
             ))}
           </div>
 
-          {/* Daily Development Stack */}
           <div className="mt-12 pt-8 border-t border-gray-700">
             <h3 className="text-2xl font-bold mb-6 text-center">
               Daily Development Stack
