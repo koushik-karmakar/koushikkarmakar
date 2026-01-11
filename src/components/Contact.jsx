@@ -1,4 +1,3 @@
-// components/Contact.js
 import { useState } from "react";
 import {
   FiMail,
