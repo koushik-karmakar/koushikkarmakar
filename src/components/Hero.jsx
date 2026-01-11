@@ -55,7 +55,7 @@ const Hero = () => {
                 View Work
               </button>
               <a
-                href="/Koushik-karmakar's CV.pdf"
+                href="/koushik_karmakar_cv.pdf"
                 download="Koushik_Karmakar_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
