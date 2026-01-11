@@ -85,7 +85,7 @@ const Contact = () => {
               <h4 className="font-bold text-lg mb-4">Follow Me</h4>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/kkcoder2024"
+                  href="https://github.com/koushik-karmakar"
                   target="_blank"
                   className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors"
                 >
