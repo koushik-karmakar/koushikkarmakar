@@ -1,9 +1,9 @@
 const EducationExperience = () => {
   const education = [
     {
-      title: "Self-Taught Computer Technologies",
-      institution: "Self-Learning (YouTube & Online Resources)",
-      period: "2024 – 2025",
+      title: "JavaScript - MERN Stack Development",
+      institution: "Self-Learning - YouTube & Online Resources",
+      period: "2025 - Present",
       description:
         "Learned modern web development from scratch through self-directed study and online resources, including React.js, Node.js, Express.js, and MongoDB. Built practical projects focusing on REST APIs, frontend-backend integration, and real-world problem solving.",
     },
@@ -25,25 +25,26 @@ const EducationExperience = () => {
 
   const experience = [
     {
-      title: "Freelance PHP Developer",
-      company: "Independent / Self-Employed",
-      period: "2025 – Present",
-      description:
-        "Worked as an independent freelance PHP developer, building and maintaining dynamic, database-driven web applications using PHP and MySQL. Responsibilities included backend development, CRUD operations, authentication, form handling, and optimizing database queries for performance and reliability.",
-    },
-    {
-      title: "Web Application Developer",
-      company: "Confidential Client Projects",
-      period: "2025 – Present",
-      description:
-        "Worked on multiple client-based web projects under confidentiality, including School management Software and business websites, focusing on backend development, database integration, and application reliability.",
-    },
-    {
       title: "JavaScript Developer",
       company: "Personal Projects",
       period: "2025 – Present",
       description:
         "Developed JavaScript-driven web applications through personal projects, including an eCommerce platform, learning modern frontend practices, state management, and reusable component design.",
+    },
+    {
+      title: "Web Application Developer",
+      company: "Confidential Client Projects",
+      period: "2025",
+      description:
+        "Worked on multiple client-based web projects under confidentiality, including School management Software and business websites, focusing on backend development, database integration, and application reliability.",
+    },
+
+    {
+      title: "Freelance PHP Developer",
+      company: "Independent / Self-Employed",
+      period: "2024 – 2025",
+      description:
+        "Worked as an independent freelance PHP developer, building and maintaining dynamic, database-driven web applications using PHP and MySQL. Responsibilities included backend development, CRUD operations, authentication, form handling, and optimizing database queries for performance and reliability.",
     },
   ];
   return (
@@ -70,8 +71,8 @@ const EducationExperience = () => {
                     <div>
                       <h4 className="text-xl font-bold mb-2">{item.title}</h4>
                       <div className="text-gray-400 mb-2">
-                        <span className="font-medium">{item.institution}</span>{" "}
-                        / {item.period}
+                        <span className="font-medium">{item.institution}</span>
+                        <span className="font-medium">{item.period}</span>
                       </div>
                       <p className="text-gray-300">{item.description}</p>
                     </div>
@@ -94,8 +95,8 @@ const EducationExperience = () => {
                     <div>
                       <h4 className="text-xl font-bold mb-2">{item.title}</h4>
                       <div className="text-gray-400 mb-2">
-                        <span className="font-medium">{item.company}</span> /{" "}
-                        {item.period}
+                        <span className="font-medium">{item.company}</span>
+                        <span className="font-medium"> {item.period}</span>
                       </div>
                       <p className="text-gray-300">{item.description}</p>
                     </div>

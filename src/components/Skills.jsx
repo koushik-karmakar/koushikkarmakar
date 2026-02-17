@@ -18,12 +18,15 @@ import {
   SiExpress,
   SiCanva,
   SiGooglechrome,
+  SiPostgresql,
+  SiFastify,
 } from "react-icons/si";
 
 import {
   FaNodeJs,
   FaTerminal,
-  FaMicrosoft, 
+  FaMicrosoft,
+  FaAws
 } from "react-icons/fa";
 import { DiVisualstudio } from "react-icons/di";
 
@@ -41,12 +44,13 @@ const Skills = () => {
           icon: <FaNodeJs className="w-5 h-5 text-green-500" />,
         },
         { name: "Express", icon: <SiExpress className="w-5 h-5 text-gray-300" /> },
+        { name: "Fastify", icon: <SiFastify className="w-5 h-5 text-white-300" /> },
         {
           name: "React.js",
           icon: <SiReact className="w-5 h-5 text-cyan-400" />,
         },
         { name: "PHP", icon: <SiPhp className="w-5 h-5 text-purple-400" /> },
-        
+
       ],
     },
     {
@@ -58,6 +62,7 @@ const Skills = () => {
         },
 
         { name: "MySQL", icon: <SiMysql className="w-5 h-5 text-blue-500" /> },
+        { name: "PostgreSQL", icon: <SiPostgresql className="w-5 h-5 text-blue-500" /> },
       ],
     },
     {
@@ -107,6 +112,10 @@ const Skills = () => {
         {
           name: "Cloudinary",
           icon: <SiCloudinary className="w-5 h-5 text-blue-500" />,
+        },
+        {
+          name: "AWS(Basic)",
+          icon: <FaAws className="w-5 h-5 text-blue-500" />,
         },
       ],
     },
@@ -238,9 +247,9 @@ const Skills = () => {
               </div>
               <div className="flex items-center space-x-2 px-5 py-3 bg-gray-800 hover:bg-gray-700 rounded-xl transition-colors cursor-pointer">
                 <div className="w-8 h-8 bg-purple-500/20 rounded-lg flex items-center justify-center">
-                  <SiTailwindcss className="w-5 h-5 text-purple-400" />
+                  <SiGit className="w-5 h-5 text-red-400" />
                 </div>
-                <span className="font-medium">Tailwind CSS</span>
+                <span className="font-medium">Git & GitHub</span>
               </div>
             </div>
           </div>
