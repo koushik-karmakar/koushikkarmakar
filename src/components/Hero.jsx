@@ -28,6 +28,8 @@ const Hero = () => {
                     2000,
                     "Software Developer",
                     2000,
+                    "Backend Developer",
+                    2000,
                   ]}
                   wrapper="span"
                   cursor={true}
